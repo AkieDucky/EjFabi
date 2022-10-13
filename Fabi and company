@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Validationform.css">
+<script src="https://kit.fontawesome.com/0e649f4d78.js" crossorigin="anonymous"></script>
+<head><title>Form</title></head>
+<body>
+    <div class="container">
+        <div class="container-form">
+            <h2 class="form-header">Create Account</h2> 
+            <form class="myform" id="form">
+                    <div class="row">  
+                    <i class="fa fa-user icon"></i> 
+                    <input type="text" name="first" id="first" placeholder="First Name"  >
+                    <i class="fas fa-check-circle hide"></i>
+                    <i class="fas fa-exclamation-circle hide"></i>
+                    <small>Error message</small>
+                    </div>
+                    
+                    <div class="row">  
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" name="last" id="last" placeholder="Last Name" >
+                    <i class="fas fa-check-circle hide"></i>
+                    <i class="fas fa-exclamation-circle hide"></i>
+                    <small>Error message</small>
+                    </div> 
+
+                    <div class="row">
+                    <i class="fas fa-phone-alt icon"></i>
+                    <input type="Number" id="phone" placeholder="Phone Number"  >
+                    <i class="fas fa-check-circle hide"></i>
+                    <i class="fas fa-exclamation-circle hide"></i>
+                    <small>Error message</small>
+                    </div>  
+
+                    <div class="row">
+                    <i class="fas fa-envelope icon"></i>
+                    <input type="email" id="email" placeholder="Email" >
+                    <i class="fas fa-check-circle hide"></i>
+                    <i class="fas fa-exclamation-circle hide"></i>
+                    <small>Error message</small>
+                    </div>
+
+                    <div class="row">
+                    <i class="fas fa-venus-mars icon"></i>
+                    <input type="text" id="gender" placeholder="Gender" >
+                    <i class="fas fa-check-circle hide"></i>
+                    <i class="fas fa-exclamation-circle hide"></i>
+                    <small>Error message</small>
+                    </div>
+                    
+                    <div class="row">
+                    <i class="fas fa-globe icon"></i>
+                    <input type="text" id="country" placeholder="Country" >
+                    <i class="fas fa-check-circle hide"></i>
+                    <i class="fas fa-exclamation-circle hide"></i>
+                    <small>Error message</small>
+                    </div>
+                    
+                    <div class="row">                
+                    <i class="fa fa-birthday-cake iconalign icon"></i>    
+                    <input type="bday" id="bday" placeholder="Birthday : DD/MM/YY" >
+                    <i class="fas fa-check-circle hide"></i>
+                    <i class="fas fa-exclamation-circle hide"></i>
+                    <small>Error message</small>
+                    </div>
+
+                    <div class="row">
+                    <i class="fas fa-user-md icon"></i>
+                    <input type="text" id="occupation" placeholder="Occupation" >
+                    <i class="fas fa-check-circle hide"></i>
+                    <i class="fas fa-exclamation-circle hide"></i>
+                    <small>Error message</small>
+                    </div>
+
+                    <div class="row">
+                    <i class="fas fa-lock icon"></i> 
+                    <input type="Password" id="password" placeholder="Password" >
+                    <i class="fas fa-check-circle hide"></i>
+                    <i class="fas fa-exclamation-circle hide"></i>
+                    <small>Error message</small>
+                    </div>
+                    
+                    <div class="row">
+                    <i class="fas fa-lock icon"></i> 
+                    <input type="Password" id="check" placeholder="Confirm Password" >
+                    <i class="fas fa-check-circle hide"></i>
+                    <i class="fas fa-exclamation-circle hide"></i>
+                    <small>Error message</small>
+                    </div>
+                
+                    <div class="row">
+                    <i class="fa fa-street-view iconalign icon"></i>
+                    <textarea class="form-home" id="home" placeholder="Home Address"></textarea>
+                    <i class="fas fa-check-circle hide"></i>
+                    <i class="fas fa-exclamation-circle hide"></i>
+                    <small>Error message</small>
+                    </div>
+
+                    <div class="row">
+                    <i class="fa fa-street-view iconalign icon"></i>
+                    <textarea class="form-business" id="office" placeholder="Office Address"></textarea>
+                    <i class="fas fa-check-circle hide"></i>
+                    <i class="fas fa-exclamation-circle hide"></i>
+                    <small>Error message</small>
+                    </div>
+                </div>     
+          <button type="submit"  class="btn" value="submit" >Submit</button><br>  
+        </div>
+    </div>
+</form>
+<script src="Validationform.js"></script>
+</body>
+</html>
+<!---
+EjFabi/EjFabi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
